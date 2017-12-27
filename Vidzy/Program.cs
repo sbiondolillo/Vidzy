@@ -12,7 +12,7 @@ namespace Vidzy
         {
             var vidzyContext = new VidzyDbContext();
             
-            vidzyContext.AddVideo("Aladdin", new DateTime(1992, 5, 1), "Family");
+            vidzyContext.AddVideo("The Lion King", new DateTime(1994, 5, 1), "Family");
 
         }
     }
