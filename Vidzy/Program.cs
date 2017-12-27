@@ -12,7 +12,7 @@ namespace Vidzy
         {
             var vidzyContext = new VidzyDbContext();
             
-            vidzyContext.AddVideo("The Lion King", new DateTime(1994, 5, 1), "Family");
+            vidzyContext.AddVideo("Half Baked", new DateTime(1998, 1, 1), "Comedy", (byte)Classification.Gold);
 
         }
     }
